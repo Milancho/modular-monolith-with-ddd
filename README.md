@@ -2065,6 +2065,7 @@ List of technologies, frameworks and libraries used for implementation:
 
 ```shell
 .\build MigrateDatabase "connection_string"
+nuke MigrateDatabase --DatabaseConnectionString "Server=(localdb)\mssqllocaldb;Database=MyMeetings;Trusted_Connection=True;"
 ```
 
 *"connection_string"* - connection string to your database
