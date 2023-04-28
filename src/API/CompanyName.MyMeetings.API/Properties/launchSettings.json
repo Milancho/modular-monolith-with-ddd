@@ -21,10 +21,10 @@
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
-        "environmentVariables": {
-            "ASPNETCORE_ENVIRONMENT": "Development",
-            "Meetings_MeetingsConnectionString": "aaa"
-        },
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Meetings_MeetingsConnectionString": "Server=(localdb)\\mssqllocaldb;Database=MyMeetings;Trusted_Connection=True;"
+      },
       "applicationUrl": "http://localhost:5000"
     },
     "Docker": {
